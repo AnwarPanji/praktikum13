@@ -1,4 +1,4 @@
-# praktikum9
+# praktikum13
 ## Penanganan Eksepsi
 ## What is Python Exeption?
 
@@ -7,7 +7,7 @@
 ### Python Exeption
 
 error dapat terjadi pada saat runtime, error seperti itu disebut eksepsi Fitur membangkitkan eksepsi dengan raise atau dibangkitkan secara paksa dengan perintah RAISE
-
+~~~bash
 >>> x = 10
 >>> if x > 5:
 >>> raise Exception('x should not exceed 5. The value of x was:
@@ -15,7 +15,7 @@ error dapat terjadi pada saat runtime, error seperti itu disebut eksepsi Fitur m
 Traceback (most recent call last):
 File "<input>", line 4, in <module>
 Exception: x should not exceed 5. The value of x was: 10
-
+~~~
 ### Blok try ... except
 
 - Setiap kode program yang memungkinkan terjadinya eksepsi, maka perlu untuk di tempatkan di dalam blok try. • Ketika ada kesalahan maka kode di blok except akan dieksekusi, • sebaliknya jika program tidak memiliki kesalahan maka blok except akan di abaikan. • Contoh
